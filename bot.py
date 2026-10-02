@@ -2,7 +2,7 @@ import os, random, urllib.request, urllib.parse
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-TZ = ZoneInfo("Europe/Moscow")   # часовой пояс
+TZ = ZoneInfo("Asia/Irkutsk")   # иркутское время
 START, END = 9, 22               # с 9:00 до 22:00
 
 PHRASES = [
